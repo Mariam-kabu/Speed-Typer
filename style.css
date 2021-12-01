@@ -1,0 +1,60 @@
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+.game{
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    color: #fff;
+    text-shadow: 5px 5px 5px #00265f;
+}
+.header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: 50px 0 40px 0;
+}
+.header div{
+    text-align: center;
+    font-size: large;
+}
+.header,
+.quote,
+.restart_btn{
+    text-align: center;
+    font-size: large;
+    color: rgb(0, 153, 255);
+    background-color: #fff;
+    padding: 20px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 5px 10px #00265f;
+}
+.input_area {
+    width: 60%; 
+    height: 70px; 
+    margin: 30px;
+    font-size: larger;
+    font-weight: 500;
+    background-color: #ffff;
+    text-align: center;
+    color: rgb(0, 153, 255);
+    border-radius: 30px;
+    box-shadow: 0 5px 10px #00265f;
+    resize: none;
+    padding: 15px 25px;
+}
+.input_area:focus{
+    outline: none;
+}
+.input_area::placeholder{
+    color: rgb(0, 153, 255);
+}
